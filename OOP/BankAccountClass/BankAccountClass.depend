@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1762974314 source:g:\iti\oop\bankaccountclass\main.cpp
+	<iostream>
+	<string>
+

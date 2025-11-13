@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763043949 source:g:\iti\oop\complexwzopoverload\main.cpp
+	<iostream>
+	<cmath>
+

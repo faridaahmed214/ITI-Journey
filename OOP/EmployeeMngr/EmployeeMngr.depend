@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1762432367 source:g:\iti\oop\employee with highlighted menu\main.cpp
+	<iostream>
+	<conio.h>
+	<array>
+	<string>
+
