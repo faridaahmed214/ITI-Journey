@@ -1,0 +1,42 @@
+* {
+  background-color: bisque;
+}
+#imageCenter {
+  text-align: center;
+}
+#imageCenter img {
+  width: 55%;
+}
+
+#headings {
+  text-align: center;
+}
+#fontText {
+  font-family: "Courier New";
+}
+#colorText2 {
+  color: blue;
+}
+span {
+  font-size: 20px;
+}
+#imagegif {
+  text-align: center;
+}
+#imagegif img {
+  width: 20%;
+}
+#contactImage {
+  text-align: center;
+}
+#emailimage {
+  text-align: center;
+}
+#emailimage img {
+  width: 20%;
+}
+#copyright {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
