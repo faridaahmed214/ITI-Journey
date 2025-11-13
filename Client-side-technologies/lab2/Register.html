@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./registerStyle.css" />
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+
+    <form action="./loginForm.html" method="get">
+      <table>
+        <tr>
+          <td>
+            <label for="fname"><u>F</u>irst Name</label>
+          </td>
+          <td>
+            <input type="text" id="fname" name="first_name" accesskey="F" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="lname"><u>L</u>ast Name</label>
+          </td>
+          <td>
+            <input type="text" id="lname" name="last_name" accesskey="L" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="email"><u>E</u>mail</label>
+          </td>
+          <td>
+            <input type="email" id="email" name="email" accesskey="E" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="password"><u>P</u>assword</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              accesskey="P"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="gender"><u>G</u>ender</label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="male"
+              name="gender"
+              value="Male"
+              accesskey="G"
+            />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="country"><u>C</u>ountry</label>
+          </td>
+          <td>
+            <select id="country" name="country" accesskey="C">
+              <option value="" disabled selected hidden>
+                Select your country
+              </option>
+              <optgroup label="Asia">
+                <option>China</option>
+                <option>India</option>
+                <option>Japan</option>
+                <option>Saudi Arabia</option>
+              </optgroup>
+              <optgroup label="Europe" disabled>
+                <option>Germany</option>
+                <option>France</option>
+                <option>United Kingdom</option>
+                <option>Italy</option>
+              </optgroup>
+              <optgroup label="Africa">
+                <option>Egypt</option>
+                <option>Nigeria</option>
+                <option>South Africa</option>
+                <option>Kenya</option>
+              </optgroup>
+              <optgroup label="North America">
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+              </optgroup>
+              <optgroup label="South America">
+                <option>Brazil</option>
+                <option>Argentina</option>
+                <option>Chile</option>
+              </optgroup>
+              <optgroup label="Oceania">
+                <option>Australia</option>
+                <option>New Zealand</option>
+              </optgroup>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="birthday">Bir<u>t</u>hday</label>
+          </td>
+          <td>
+            <input type="date" id="birthday" name="birthday" accesskey="t" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="centerdLabels">
+            <label for="interests"><u>I</u>nterests</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <table cellspacing="5" cellpadding="5">
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="sports"
+                    name="interests"
+                    value="Sports"
+                    accesskey="I"
+                  />
+                  <label for="sports">Sports</label>
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="music"
+                    name="interests"
+                    value="Music"
+                  />
+                  <label for="music">Music</label>
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="reading"
+                    name="interests"
+                    value="Reading Books"
+                  />
+                  <label for="reading">Reading Books</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="travel"
+                    name="interests"
+                    value="Travel"
+                  />
+                  <label for="travel">Travel</label>
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="gaming"
+                    name="interests"
+                    value="Gaming"
+                  />
+                  <label for="gaming">Gaming</label>
+                </td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="cooking"
+                    name="interests"
+                    value="Cooking"
+                  />
+                  <label for="cooking">Cooking</label>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="centerdLabels">
+            <label for="bio"><u>B</u>io</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <textarea
+              id="bio"
+              name="bio"
+              rows="5"
+              placeholder="Write about yourself..."
+              accesskey="B"
+              style="resize: none"
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="buttons">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

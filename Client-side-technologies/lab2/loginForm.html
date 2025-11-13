@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./loginStyle.css" />
+  </head>
+  <body>
+    <form action="../Lab1/main.html" method="get">
+      <fieldset>
+        <legend>Login Form</legend>
+
+        <label for="Name"><u>N</u>ame:</label>
+        <input
+          type="text"
+          id="Name"
+          name="username"
+          accesskey="N"
+          placeholder="Enter your name"
+        />
+
+        <label for="Pswd"><u>P</u>assword:</label>
+        <input
+          type="password"
+          id="Pswd"
+          name="password"
+          accesskey="P"
+          placeholder="Enter your password"
+        />
+        <input type="checkbox" id="rememberMe" name="rememberMe" />
+        <label for="rememberMe">Remember Me</label><br /><br />
+        <div><input type="submit" value="Login" /></div>
+      </fieldset>
+    </form>
+  </body>
+</html>
